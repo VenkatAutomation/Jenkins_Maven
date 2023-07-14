@@ -1,0 +1,41 @@
+<suite name="TestNG Suite">
+
+
+	<test name="Login with valid data">
+		<parameter name="uid" value="Admin"></parameter>
+		<parameter name="pwd" value="Qedge123!@#"></parameter>
+		<classes>
+			<class name="orangeHRMTestCases.AdminLoginWithValidData"></class>
+		</classes>
+	</test>
+
+	<test name="Login with Invalid data">
+		<parameter name="uid" value="abc"></parameter>
+		<parameter name="pwd" value="xyz"></parameter>
+		<classes>
+			<class name="orangeHRMTestCases.AdminLoginWithInvaliData"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="New Employee Registration">
+		<parameter name="fname" value="Deepu"></parameter>
+		<parameter name="lname" value="demo"></parameter>
+		<classes>
+			<class name="orangeHRMTestCases.NewEmpReG"></class>
+		</classes>
+	</test>
+	
+	<test name="New User Registration">
+		<parameter name="role" value="ESS"></parameter>
+		<parameter name="empname" value="Deepu demo"></parameter>
+		<parameter name="uname" value="Deepu12"></parameter>
+		<parameter name="pword" value="Venkat@123"></parameter>
+		<classes>
+			<class name="orangeHRMTestCases.NewUserReg"></class>
+		</classes>
+	</test>
+	
+
+
+</suite>
