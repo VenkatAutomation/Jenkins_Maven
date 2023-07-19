@@ -22,5 +22,6 @@ public class AdminLoginWithValidData extends Apputils
 		Assert.assertTrue(res);
 		
 		lp.logout();
+		System.out.println("Login with Valid data is passed");
 	}
 }

@@ -18,6 +18,7 @@ public class NewUserReg extends AdminModuleUtils
 		AddUser ad = new AddUser();
 		boolean res =ad.addUser(role, empname, uname, pword);
 		Assert.assertTrue(res);
+		System.out.println("User Reg is passed");
 	}
 	
 	

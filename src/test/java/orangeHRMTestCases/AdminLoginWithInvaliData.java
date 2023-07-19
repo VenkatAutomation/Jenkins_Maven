@@ -20,6 +20,7 @@ public class AdminLoginWithInvaliData extends Apputils
 		boolean res =lp.isErrorMsgDisplayed();
 		
 		Assert.assertTrue(res);
+		System.out.println("Login with invalid data is passed");
 	}
 	
 }

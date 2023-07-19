@@ -17,6 +17,7 @@ public class NewEmpReG extends AdminModuleUtils
 		AddEmployee ad = new AddEmployee();
 		boolean res =ad.addEmp(fname, lname);
 		
-		Assert.assertTrue(res);		
+		Assert.assertTrue(res);	
+		System.out.println("Emp Reg is passed");
 	}
 }
