@@ -19,6 +19,7 @@ public class NewUserReg extends AdminModuleUtils
 		boolean res =ad.addUser(role, empname, uname, pword);
 		Assert.assertTrue(res);
 		System.out.println("User Reg is passed");
+		System.out.println("This is for CI");
 	}
 	
 	
