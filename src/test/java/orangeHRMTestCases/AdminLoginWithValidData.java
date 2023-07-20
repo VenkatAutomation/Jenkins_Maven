@@ -23,5 +23,7 @@ public class AdminLoginWithValidData extends Apputils
 		
 		lp.logout();
 		System.out.println("Login with Valid data is passed");
+		
+		System.out.println("Exmaple:This is for CD");
 	}
 }
